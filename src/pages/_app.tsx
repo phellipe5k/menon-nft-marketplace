@@ -16,6 +16,9 @@ const myApp = ({ Component, pageProps }: AppProps) => {
           href="https://reactavancado.com.br/img/icon-512.png"
         />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap" rel="stylesheet"></link>
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />

@@ -24,7 +24,7 @@ const Header = ({ title = 'Header' }: Props) => (
         textColor='black'
         glow='#b5e41c'
         // @ts-ignore
-        style={{borderRadius: '30px', fontWeight: 'bolder'}}
+        style={{ fontFamily: "'Lexend', sans-serif", borderRadius: '30px', fontWeight: 'bolder'}}
       >Connect Wallet</Button.Default>
     </S.UserButtons>
     <S.ThemeSwitcher>

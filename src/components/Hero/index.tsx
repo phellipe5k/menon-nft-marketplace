@@ -12,10 +12,10 @@ const Hero = ({ title = 'Create, Explore & Collect Digital Art NFTs' }: Props) =
       <S.Subtitle>Buy and sell NFTs from the world artists. More than 1000 premium digital artworks are available to be your's</S.Subtitle>
       <S.Buttons>
         {/*@ts-ignore*/}
-        <Button.Default glow='#b5e41c' width='35%' textColor='black' style={{borderRadius: '30px', fontWeight: 'bolder', margin: '0 4px'}} color='#b5e41c'>Start Collecting</Button.Default>
+        <Button.Default glow='#b5e41c' width='35%' textColor='black' style={{ fontFamily: "'Lexend', sans-serif",borderRadius: '30px', fontWeight: 'bolder', margin: '0 4px'}} color='#b5e41c'>Start Collecting</Button.Default>
         
         {/*@ts-ignore*/}
-        <Button.BorderGradient glow='#b5e41c' width='35%' color='#070D14' gradient={false} style={{borderRadius: '30px', margin: '0 4px', fontWeight: 'bolder'}} border='#b5e41c'>Create NFTs</Button.BorderGradient>
+        <Button.BorderGradient glow='#b5e41c' width='35%' color='#070D14' gradient={false} style={{ fontFamily: "'Lexend', sans-serif",borderRadius: '30px', margin: '0 4px', fontWeight: 'bolder'}} border='#b5e41c'>Create NFTs</Button.BorderGradient>
       </S.Buttons>
     </S.Call>
     <S.Image>
